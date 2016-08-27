@@ -53,6 +53,16 @@ public class TestName {
         if(balance > 100) {
             System.out.println("finish");
         }
+        // i++   ++i
+        int key = 10;
+        key++;
+        System.out.println(key);
+        key = 10;
+        key = k + 1;
+        System.out.println(key);
+        key = 10;
+        ++key;
+        System.out.println(key);
 
     }
 }
