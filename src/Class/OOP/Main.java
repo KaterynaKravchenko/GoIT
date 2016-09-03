@@ -15,6 +15,8 @@ public class Main {
         honda1.PrintOwnerName();
         honda1.PrintYear();
 
+        Boolean hahaha = new Boolean(true);
+
         honda2.PrintOwnerName();
         honda2.PrintYear();
 
