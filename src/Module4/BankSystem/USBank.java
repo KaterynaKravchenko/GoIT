@@ -7,7 +7,7 @@ public class USBank extends Bank{
 
     @Override
     int getLimitOfWithdrawal() {
-        if(super.getCurrency() == Currency.EUR) return 1200;
+        if(getCurrency() == Currency.EUR) return 1200;
         else return 1000;
     }
 
